@@ -80,7 +80,7 @@ React is built using components, which are the building blocks of any React appl
 Functional components are simple JavaScript functions that return React elements(JSX). They are stateless but they can handle local state and side effects using hooks.
 
 ```jsx
-function kna() {
+function Kna() {
     return <h1>Hello, {props.name}!</h1>;
 }
 ```
@@ -92,7 +92,7 @@ JSX stands for JavaScript XML and is a syntax extension of JavaScript that looks
 ```jsx
 import React from 'react';
 
-function kna() {
+function Kna() {
     return (
         <div>
             <h1>Hello, world!</h1>
@@ -101,7 +101,7 @@ function kna() {
     );
 }
 
-export default kna;
+export default Kna;
 
 ```
 JSX makes the code more readable and easier to debug. It also allows embedding or adding JavaScript code within curly braces {} inside the JSX.
@@ -167,7 +167,7 @@ export default App
 ```
 
 ### Handling Events in React
-React events are handled in a similar way to DOM events, but with some differences. In React, we attach an event handler (a function) to an element. This function runs when the eventt occurs.
+React events are handled in a similar way to DOM events, but with some differences. In React, we attach an event handler (a function) to an element. This function runs when the event occurs.
 
 Events are actions or occurrences that happen in the browser, such as clicks, key presses, or mouse movements. 
 
@@ -206,6 +206,8 @@ function Counter() {
         </div>
     );
 }
+
+export default Counter
 ```
 
 #### useEffect
@@ -238,7 +240,7 @@ export default App;
 ```
 
 ### React Router
-React Router is a is a popular library for handling routing in React applications. It allows us to define more than one route in our app and navigate between them without reloading the page.
+React Router is a popular library for handling routing in React applications. It allows us to define more than one route in our app and navigate between them without reloading the page.
 
 ```jsx
 //App.jsx
