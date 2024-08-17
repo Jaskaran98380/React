@@ -73,7 +73,7 @@ npm run dev
 
 ## React Component Architecture
 
-React is built using components, which are the building blocks of any React application. Components can be either **functional** or **class-based**, and they tell how a section of the UI should appear.
+React is built using components, which are the building blocks of any React application.
 
 ### Functional Components
 
